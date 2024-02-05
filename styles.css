@@ -4,13 +4,24 @@ html {
 
 body {
     display: flex;
+    margin: 0;
     flex-direction: column;
     min-height: 100vh;
 }
 
 .content {
     flex: 1;
+}
 
+.content > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px;
+}
+
+.information, .quote-section {
+    flex-direction: column;
 }
 
 .navigation, .hero, .footer {
@@ -22,7 +33,7 @@ body {
 .navigation {
     display: flex;
     justify-content: space-between;
-    padding: 18px;
+    padding: 20px 60px;
 }
 
 .navigation ul {
@@ -37,19 +48,24 @@ body {
 }
 
 .hero {
-    display: flex;
+    gap: 24px;
 }
 
-.info-container {
-    display: flex;
+.hero-text {
 }
 
-.cta-section {
+.hero-image {
+    height: 300px;
+    width: 500px;
+    background-color: #6e6e6e;
+    color: #F9FAF8;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.cta {
-    display: flex;
+.info-container, .cta {
+    display: flex
 }
 
 .footer {
@@ -74,4 +90,8 @@ ul {
 a { 
     text-decoration: none;
     color: inherit;
+}
+
+p {
+    max-width: 75ch;
 }
