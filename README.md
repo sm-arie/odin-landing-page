@@ -1,1 +1,1 @@
-# odin-landing-page
+This is my submission for the Landing Page project for The Odin Project's Foundations course. I'll be creating a webpage from an image using my HTML and CSS knowledge.
