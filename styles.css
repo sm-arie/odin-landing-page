@@ -49,11 +49,13 @@ body {
 
 .hero {
     gap: 24px;
+    flex-wrap: wrap-reverse;
 }
 
 .hero-image {
     height: 250px;
     width: 500px;
+    flex-shrink: 0;
     background-color: #6e6e6e;
     color: #F9FAF8;
     display: flex;
