@@ -55,7 +55,7 @@ body {
 }
 
 .hero-image {
-    height: 300px;
+    height: 250px;
     width: 500px;
     background-color: #6e6e6e;
     color: #F9FAF8;
@@ -65,7 +65,26 @@ body {
 }
 
 .info-container, .cta {
-    display: flex
+    display: flex;
+}
+
+.info-container {
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.info {
+    width: 150px;
+    text-align: center;
+}
+
+.info-image {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3882F6;
 }
 
 .footer {
@@ -77,8 +96,14 @@ body {
 
 h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 700;
     color: #F9FAF8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
 }
 
 ul {
